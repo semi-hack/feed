@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import ImgBg from '../../images/wind_turbine.svg';
-import ImgBg1 from '../../images/farm_girl.svg'
+import ImgBg1 from '../../images/ice_cream.svg'
 import { motion } from 'framer-motion'
 import Fade from 'react-reveal/Fade';
 import withReveal from 'react-reveal/withReveal';

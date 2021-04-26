@@ -23,8 +23,9 @@ const Service = () => {
              <Cards>
                  <CardBg src={logo} />
                  <div className="info">
-                 <serviceP> We produce healthy and organic meals
-                     that are affordable and seasonal
+                 <h5>LIvestock Farming</h5>
+                 <serviceP> Management and breeding of domestic
+                 Livestock i.e cattle
                  </serviceP>
                  </div>
                  
@@ -32,15 +33,17 @@ const Service = () => {
              <Cards>
                  <CardBg src={logo2} />
                  <div className="info">
-                 <serviceP>We produce healthy and organic dairy products
-                     that are affordable and seasonal.</serviceP>
+                 <h5>Local Food Production</h5>
+                 <serviceP>Local Production of Standard dairy products, milk cheese etc
+                 </serviceP>
                  </div>
              </Cards>
              <Cards>
                  <CardBg src={logo3} />
                  <div className="info">
-                 <serviceP> We provide alternative source of energy
-                 by converting cow waste to energy
+                 <h5>Energy Production</h5>
+                 <serviceP> Conversion of farm waste into
+                 eco-friendly bio-gas.
                  </serviceP>
                  </div>
              </Cards>

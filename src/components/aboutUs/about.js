@@ -16,12 +16,14 @@ const About = () => {
         <div className = "about-section">
         <div className = "image-section">
          <img src={imgBg} alt=""/>
+         <img src={imgBg} alt=""/>
         </div>
         <div data-aos="fade-down" className="inner-container">
                 <h1>About Us</h1>
                 <p className="text">
-                    Feed Afrique is an agri tech company, a modern diary farm into the production
-                    of milk, feed and fodder, breeding of cattle and production of renewable energy.
+                    Feed Afrique is an agri tech startup company, a modern diary farm into carbon neutral 
+                    dairy farming, production of milk, feed and fodder, breeding of cattle and production 
+                    of renewable energy.
 
                     Our Vision: To be the largest commercial agricultural firm in Africa, to ensure
                     zero Hunger, lessen cost of production to better serve families living under $1
@@ -39,15 +41,17 @@ const About = () => {
         <div data-aos="zoom-in" className="section2">
         <div className="one">
             <h2 className="Sp">Our Mission</h2>
-            <p>"To be the largest commercial farm ecosystem in Africa meeting food production and creating wealth for africans." </p>
+            <p>"To improve food and dairy production in Nigeria and create wealth for africans." </p>
         </div>
          <div className="one">
              <h2 className="Sp">Our Vision</h2>
-             <p>"To be the largest commercial farm ecosystem in Africa meeting food production and creating wealth for africans." </p>
+             <p>"To be the largest commercial agricultural firm in Africa to ensure
+                    zero Hunger, lessen cost of production to better serve families living under $1
+                    a day.." </p>
          </div>
          <div className="one">
              <h2 className="Sp">Our Values</h2>
-             <p>"To be the largest commercial farm ecosystem in Africa meeting food production and creating wealth for africans."</p>
+             <p>"Integrity, Excellence, Drive to achieve the best in all we do."</p>
         </div>
         </div>
        

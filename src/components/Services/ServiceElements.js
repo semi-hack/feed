@@ -68,6 +68,10 @@ export const CardBg = styled.img`
 export const Title = styled.div`
   font-size: 2.5rem;
   margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 `
 
 export const cardInfo = styled.div`
@@ -76,8 +80,10 @@ export const cardInfo = styled.div`
   padding: 5px; */}
   margin-left: 10px;
   height: 100px;
+  ${'' /* font-size: 0.9rem;  */}
 
 `
 export const serviceP = styled.p`
-  font-family: serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 `
