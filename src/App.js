@@ -8,6 +8,7 @@ import Info from './components/Info/Info';
 import Review from './components/review/review';
 import About from './components/aboutUs/about';
 import Contact from './components/Contact/Contact';
+import GetStarted from './components/GetStarted/getStarted';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Service />
         <Info />
         <Review />
+        <GetStarted />
         </Route>
         <Route path='/about' exact>
          <About />

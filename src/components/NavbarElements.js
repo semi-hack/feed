@@ -2,7 +2,7 @@ import { Link as LinkR } from 'react-router-dom/cjs/react-router-dom.min'
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
- background: #01BF71;
+ background: #fff;
  height: 80px;
  margin-top: --80px;
  display: flex;
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
  align-items: center;
  list-style: none;
  text-align: center;
- margin-right: -22px;
+ margin-right: 20px;
 
  @media screen and (max-width: 768px) {
      display: none;
@@ -80,16 +80,18 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkR)`
- color: #fff;
+ color: #000;
  display: flex;
  align-items: center;
  text-decoration: none;
  padding: 0 1rem;
+ font-weight: 600;
+ font-size: 14px;
  height: 100%;
  cursor: pointer;
 
  &.active {
-     border-bottom: 3px solid #01bf71
+     border-bottom: 3px solid #409c14
  }
 
 `

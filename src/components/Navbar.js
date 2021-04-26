@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa'
 import imgBg from '../images/FAlogo.jpeg'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem } from './NavbarElements'
@@ -9,10 +10,10 @@ function Navbar() {
         <>
          <Nav>
              <div className="logo">
-                 <img src={imgBg} alt="" />
-                 <NavLogo to= '/'>
+                 <a href="/"><img src={imgBg} alt="" /></a>
+                 {/* <NavLogo to= '/'>
                      Feed Afrique
-                 </NavLogo>
+                 </NavLogo> */}
              </div>
              
              <NavbarContainer>

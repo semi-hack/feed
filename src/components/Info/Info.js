@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoCols, InfoContainer, InfoRow, InfoWrapper, ForSpan, Subtitle } from './InfoElements'
+import { InfoCols, InfoContainer, InfoWrapper, ForSpan, Subtitle } from './InfoElements'
 import '../aboutUs/about.css'
 
 const Info = () => {

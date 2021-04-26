@@ -12,14 +12,13 @@ function Footer() {
          <div className="w-full bg-blue-500">
           <div className="xl:px-40 pb-12 lg:px-20 md:px-14 flex flex-row justify-between">
             <div className="flex flex-col space-y-4">
-              <p className="opacity-50">FeedAfrique</p>
+              <p className="opacity-50">Feed Afrique</p>
             </div>
             <div className="flex flex-col space-y-4">
               <Link className="opacity-50" to="">About Us</Link>
               <Link className="opacity-50" to="">Contact</Link>
               <Link className="opacity-50" to="">Privacy Policy</Link>
               <Link className="opacity-50" to="">Terms and Condition</Link>
-              <Link className="opacity-50" to="">Guidelines for Review</Link>
             </div>
             <div className="flex flex-col space-y-4">
               <Link className="opacity-50" to="">About Us</Link>

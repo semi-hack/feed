@@ -1,17 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from '../../images/jo.jpg';
 import logo2 from '../../images/cheese.jpg';
 import logo3 from '../../images/energy.jpg'
 import { ServiceContainer, Title, Scontainer, Cards, CardBg, serviceP } from './ServiceElements'
 import '../aboutUs/about.css';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const Service = () => {
+
+    useEffect(()=> {
+        Aos.init({ duration: 1500 })
+
+    }, [])
+
     return (
         <ServiceContainer>
          <Title>
              <h1>Services</h1>
          </Title>
-         <Scontainer>
+         <Scontainer data-aos="fade-right">
              <Cards>
                  <CardBg src={logo} />
                  <div className="info">

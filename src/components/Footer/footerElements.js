@@ -2,11 +2,11 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
- background-color: #01bf71;
+ background-color: #fff;
 `
 
 export const FooterWrap = styled.div`
- padding: 48px 24px;
+ padding: 38px 24px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -40,7 +40,7 @@ export const FooterLinkItem = styled.div`
   text-align: left;
   width: 160px;
   box-sizing: border-box;
-  color: #fff;
+  color: #444;
 
   @media screen and (max-width: 420px) {
       margin: 0;
@@ -56,7 +56,7 @@ export const FooterLinkTitle = styled.h1`
 `
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: #444;
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
@@ -86,7 +86,6 @@ export const SocialMediaWrapper = styled.div`
 `
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -94,12 +93,18 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  width: 10px;
+  height: 65px;
+  margin-left: 20px;
 
 `
 
-export const websiteRights = styled.small`
-  color: #fff;
-  margin-bottom: 16px;
+export const websiteRights = styled.p`
+  margin-bottom: 18px;
+  color: red;
+  font-weight: normal;
+  font-size: .9rem;
+  line-height: 1.5;
 
 `
 export const SocialIcons = styled.div`
@@ -107,5 +112,6 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  color: rgb(126, 167, 30)
   
 `

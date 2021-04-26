@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { delayVariant } from '../variants';
 import emailJs from 'emailjs-com';
 import '../Contact/contact.css';
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import FacebookIcon from "@material-ui/icons/Facebook";
+// import TwitterIcon from "@material-ui/icons/Twitter";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 // import LinkedIn from "@material-ui/icons/Link"
@@ -96,21 +96,25 @@ const Contact = () => {
 			animate="enter"
 			transition="transition"
 		>
-			<div className="cont" ref={cont} style={{ height: '4.5rem' }}></div>
+			{/* <div className="cont" ref={cont} style={{ height: '4.5rem' }}></div> */}
+			<div className="banner" ref={cont}>
+				<h3>Contact Us</h3>
+				<p> We'd Like To Hear From You</p> 
+			</div>
 			<div className="contactpage-container">
 				<div className="contactpage-left">
 					<h1>Let's Talk!</h1>
-					<h2>I'd love to know what you have to say</h2>
+					<h2>We'd love to know what you have to say</h2>
 					<div className="other-contacts">
 						<button className="tab cursor" onClick={goToWhatsapp}>
-							{/* <img src={Whatsapp} alt="" /> */}
+							{/* <img src={Whatsapp} alt="" />  */}
                             <WhatsAppIcon />
 							<span>+2349082231742</span>
 						</button>
 						<button className="tab cursor" onClick={goToLinkedin}>
 							{/* <img src={LinkedIn} alt="" /> */}
-							<span>linkedin.com/in/okoliugo</span>
-						</button>
+							<span>linkedin.com/in/</span>
+						</button> 
 						<button className="tab cursor" onClick={goToMail}>
 							{/* <img src={Email} alt="" /> */}
                             <EmailIcon />
@@ -120,10 +124,10 @@ const Contact = () => {
 				</div>
 				<div className="contactpage-right">
 					<form onSubmit={sendEmail}>
-						<h2>Contact Me</h2>
+						{/* <h2>Contact Me</h2> */}
 						<div className="form-container">
 							<section>
-								<label htmlFor="name">What can I call you?</label>
+								<label htmlFor="name">Name</label>
 								<input
 									type="text"
 									id="name"
@@ -133,12 +137,22 @@ const Contact = () => {
 								/>
 							</section>
 							<section>
-								<label htmlFor="email">What Email do I reply to?</label>
+								<label htmlFor="email">Email</label>
 								<input
 									type="text"
 									id="email"
 									placeholder="JohnDoe@email.com"
 									name="email"
+									required
+								/>
+							</section>
+							<section>
+								<label htmlFor="name">Subject</label>
+								<input
+									type="text"
+									id="subject"
+									placeholder="Subject"
+									name="subject"
 									required
 								/>
 							</section>
@@ -158,6 +172,7 @@ const Contact = () => {
 					</form>
 				</div>
 			</div>
+			
 		</motion.div>
     )
 }
