@@ -35,7 +35,7 @@
     background: url('../../images/tara.jpg') no-repeat;
     /* background-size: 50%; */
     width: 100%;
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 500px;
     /* background: url(${ImgBg}) no-repeat center/cover; */
     margin-left: 50px;
@@ -46,7 +46,7 @@
     /* background: url('../../images/tara.jpg') no-repeat left; */
     background-size: 55%;
     width: 100%;
-    max-width: 50%;
+    /* max-width: 50%; */
     height: 500px;
 }
 

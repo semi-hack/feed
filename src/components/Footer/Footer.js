@@ -8,6 +8,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Footer = () => {
     return (
@@ -45,8 +46,9 @@ const Footer = () => {
                         <SocialIcons>
                             <a href='https://twitter.com/FeedAfrique?s=08'> <TwitterIcon className="fabc mr-4" /> </a>
                             <a href="https://www.instagram.com/feedafrique/"> <InstagramIcon className="fabc mr-4" /> </a>
-                            <a href> <WhatsAppIcon className="fabc mr-4" /> </a>
+                            <a href="https://wa.me/+2349058025285"> <WhatsAppIcon className="fabc mr-4" /> </a>
                             <a href='https://www.facebook.com/FeedAfrique1/'> <FacebookIcon className="fabc mr-4" /> </a>
+                            <a href='https://www.linkedin.com/mwlite/in/oluwafolakanmi-oyeleke-649a30200'> <LinkedInIcon className="fabc mr-4" /></a>
                         </SocialIcons>
                     </SocialMediaWrapper>                
 

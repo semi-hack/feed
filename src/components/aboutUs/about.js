@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import '../aboutUs/about.css'
 import Aos from 'aos';
 import "aos/dist/aos.css"
-import imgBg from '../../images/tara.jpg'
+import imgBg from '../../images/moo.jpg'
 
 const About = () => {
 
@@ -16,17 +16,15 @@ const About = () => {
         <div className = "about-section">
         <div className = "image-section">
          <img src={imgBg} alt=""/>
-         <img src={imgBg} alt=""/>
         </div>
         <div data-aos="fade-down" className="inner-container">
                 <h1>About Us</h1>
                 <p className="text">
-                    Feed Afrique is an agri tech startup company, a modern diary farm into carbon neutral 
-                    dairy farming, production of milk, feed and fodder, breeding of cattle and production 
-                    of renewable energy.
+                    Feed Afrique is a sustainable agri tech startup, into carbon neutral 
+                    dairy farming, and renewable energy production.
 
                     Our Vision: To be the largest commercial agricultural firm in Africa, to ensure
-                    zero Hunger, lessen cost of production to better serve families living under $1
+                    zero Hunger by lessening the cost of food products to better serve families living on $2 -$5
                     a day.
                 </p>
                 {/* <div className="skills">
@@ -41,13 +39,13 @@ const About = () => {
         <div data-aos="zoom-in" className="section2">
         <div className="one">
             <h2 className="Sp">Our Mission</h2>
-            <p>"To improve food and dairy production in Nigeria and create wealth for africans." </p>
+            <p>"To reduce carbon emissions on dairy farms and provide an alternate source of energy." </p>
         </div>
          <div className="one">
              <h2 className="Sp">Our Vision</h2>
-             <p>"To be the largest commercial agricultural firm in Africa to ensure
-                    zero Hunger, lessen cost of production to better serve families living under $1
-                    a day.." </p>
+             <p>"To be the largest commercial agricultural firm in Africa, to ensure
+                    zero Hunger by lessening the cost of food products to better serve families living on $2 -$5
+                    a day." </p>
          </div>
          <div className="one">
              <h2 className="Sp">Our Values</h2>

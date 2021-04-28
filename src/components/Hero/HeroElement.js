@@ -11,8 +11,8 @@ export const HeroContainer = styled.div`
   align-items: center;
   justify-content: space-between ;
   display: flex;
-  ${'' /* margin: auto; */}
-  ${'' /* z-index: 1; */}
+  margin: auto;
+  z-index: 1;
 
   ${'' /* :before {
     content: '';

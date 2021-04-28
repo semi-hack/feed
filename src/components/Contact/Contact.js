@@ -8,6 +8,7 @@ import '../Contact/contact.css';
 // import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // import LinkedIn from "@material-ui/icons/Link"
 
 const Contact = () => {
@@ -109,11 +110,12 @@ const Contact = () => {
 						<button className="tab cursor" onClick={goToWhatsapp}>
 							{/* <img src={Whatsapp} alt="" />  */}
                             <WhatsAppIcon />
-							<span>+2349082231742</span>
+							<span>+2349058025285</span>
 						</button>
 						<button className="tab cursor" onClick={goToLinkedin}>
 							{/* <img src={LinkedIn} alt="" /> */}
-							<span>linkedin.com/in/</span>
+							<LinkedInIcon />
+							<span>linkedin.com/mwlite/in/oluwafolakanmi-oyeleke-649a30200</span>
 						</button> 
 						<button className="tab cursor" onClick={goToMail}>
 							{/* <img src={Email} alt="" /> */}

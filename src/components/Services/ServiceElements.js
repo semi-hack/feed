@@ -13,15 +13,16 @@ export const ServiceContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-      height: 1300px;
+      height: 1200px;
   }
 
 `
 
 export const Scontainer = styled.div`
-  max-width: 1000px;
+  ${'' /* max-width: 1000px; */}
   display: flex;
   margin: 0 auto;
+  width: 100%;
   ${'' /* grid-template-column: 1fr 1fr 1fr; */}
   align-items: center;
   grid-gap: 50px;
@@ -33,7 +34,7 @@ export const Scontainer = styled.div`
   }
 
   @media screen and  (max-width: 768px) {
-      grid-template-column: 1fr;
+      flex-direction: column;
       padding: 0 20px;
   }
 `
@@ -48,6 +49,7 @@ export const Cards = styled.div`
   border-radius: 10px;
   ${'' /* max-height: 340px; */}
   margin-top: 24px;
+  padding-bottom: 3%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
@@ -80,7 +82,7 @@ export const cardInfo = styled.div`
   padding: 5px; */}
   margin-left: 10px;
   height: 100px;
-  ${'' /* font-size: 0.9rem;  */}
+  font-size: 0.9rem; 
 
 `
 export const serviceP = styled.p`
