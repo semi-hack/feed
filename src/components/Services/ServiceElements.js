@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 
 export const ServiceContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  ${'' /* display: flex; */}
+  ${'' /* flex-flow: wrap; */}
+  ${'' /* flex-direction: column; */}
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
@@ -21,21 +22,29 @@ export const ServiceContainer = styled.div`
 export const Scontainer = styled.div`
   ${'' /* max-width: 1000px; */}
   display: flex;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  ${'' /* margin: 0 auto; */}
+  ${'' /* flex-flow: wrap; */}
+  margin: 0 15px;
   width: 100%;
   ${'' /* grid-template-column: 1fr 1fr 1fr; */}
-  align-items: center;
+  ${'' /* align-items: center;
   grid-gap: 50px;
   padding: 0 50px;
-  margin-bottom: 50px;
+  margin-bottom: 50px; */}
+
+  @media screen and (max-width: 1280px) {
+    flex: 0 0 50%;
+    max-width:50%
+  }
 
   @media screen and (max-width: 1000px) {
-      grid-template-column: 1fr 1fr;
+      
   }
 
   @media screen and  (max-width: 768px) {
       flex-direction: column;
-      padding: 0 20px;
+      padding: 0 5px;
   }
 `
 

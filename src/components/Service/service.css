@@ -1,0 +1,111 @@
+
+
+.Title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    /* margin-bottom: 25px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    margin-top: 80px;
+    width: 114em;
+    grid-gap: 4em;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    align-items: start;
+}
+
+.cards {
+    background-color: #fff;
+    height: 45vh;
+    /* width: 300px; */
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 40px;
+    }
+    .cards {
+        height: 34vh;
+    }
+
+    .cards > img {
+        display: block;
+        object-fit: cover;
+        height: 40vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cards {
+        margin-top: 10px;
+        height: 31vh;
+    }
+
+    .cards > img {
+        display: block;
+        object-fit: cover;
+        height: 40vw;
+        width: 100%;
+    }
+}
+
+.cards:hover {
+    transform: translate(-0.5%);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+
+.cards > img {
+    display: block;
+    object-fit: cover;
+    height: 14vw;
+    width: 100%;
+}
+
+.content {
+    padding: 0.5rem;
+}
+
+.content > h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content > p {
+    height: 100px;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 60em) {
+    .section {
+        padding: 3rem;
+    }
+
+    .container {
+        grid-gap: 3rem;
+    }
+}

@@ -3,7 +3,7 @@ import ImgBg from '../../images/este.jpg';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 
 export const HeroContainer = styled.div`
-  background: url(${ImgBg});
+  background: linear-gradient(rgba(0, 0, 0, 0.100),rgba(0, 0, 0, 0.3)), url(${ImgBg});
   ${'' /* background-color: #faecaf; */}
   height: 800px;
   background-position: center;

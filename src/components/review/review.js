@@ -68,7 +68,7 @@ const Review = () => {
         <Rinfo data-aos="fade-up">
           <Heading1>Feed and Fodder Production</Heading1>
           <Subtitile1>
-            Producing feed and fodder forlivestock/crop farmers.
+            Producing feed and fodder for livestock/crop farmers.
           </Subtitile1>
           <Heading1>Cattle Breeding</Heading1>
           <Subtitile1>

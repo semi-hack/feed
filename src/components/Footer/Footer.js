@@ -1,5 +1,5 @@
 import React from 'react'
-import imgBg from '../../images/FAlogo.jpeg'
+import imgBg from '../../images/FAlogo.jpg'
 import '../aboutUs/about.css'
 // import { Link } from "react-router-dom";
 import { FooterContainer, FooterWrap,  FooterLinksContainer, FooterLinkWrapper, FooterLinkItem, FooterLinkTitle, FooterLink, 
@@ -18,20 +18,18 @@ const Footer = () => {
                         <FooterLinkWrapper>
                             <FooterLinkItem>
                                 <FooterLinkTitle>About Us</FooterLinkTitle>
-                                    <FooterLink>Products</FooterLink>
-                                    <FooterLink>Investors</FooterLink>
+                                    <FooterLink>Services</FooterLink>
                                     <FooterLink>Terms of Service</FooterLink>
                             </FooterLinkItem>
                             <FooterLinkItem>
                                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                                    <FooterLink>Learn More</FooterLink>
-                                    <FooterLink>Investors</FooterLink>
+                                    <FooterLink to='/about'>Learn More</FooterLink>
                                     <FooterLink>Privacy Policy</FooterLink>
                             </FooterLinkItem>
                             <FooterLinkItem>
                                 {/* <FooterLinkTitle>Social Media</FooterLinkTitle> */}
-                                <FooterLink>info@feedAfrique.com</FooterLink>
-                                <p>+234 8095467789</p>
+                                <FooterLink>info@feedafrique.com</FooterLink>
+                                <p>+234 9058025285</p>
                             </FooterLinkItem>
                         </FooterLinkWrapper>
                     </FooterLinksContainer>

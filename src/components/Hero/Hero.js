@@ -15,8 +15,8 @@ function Hero() {
          <HeroContent>
                  <HeroH1> Feed Afrique </HeroH1>
                  <HeroP>
-                     An Agric tech company, committed to modernizing dairy farming, Producing renewable energy 
-                     and Improving local farmers earnings
+                    A sustainable agritech startup into carbon neutral dairy farming and renewable
+                    energy production.
                  </HeroP>
                  <HeroBtn>
                      {/* <Button to="" onMouseEnter={onHover} onMouseLeave={onHover}

@@ -9,21 +9,27 @@ export const Rcontainer = styled.section`
   width: 100%;
   padding: 80px 0;
   
-  @media screen and (max-width: 768px) {
+  ${'' /* @media screen and (max-width: 768px) {
       height: 1100px;
   }
 
   @media screen and (max-width: 480px) {
       height: 1300px;
-  }
+  } */}
 
 `
 
 export const Rwrapper = styled.div`
   max-width: 100%;
   display: flex;
+  ${'' /* flex-wrap: wrap; */}
   align-items: center;
   margin-bottom: 50px;
+  
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `
 
 export const Rback = styled.div`
@@ -32,6 +38,10 @@ export const Rback = styled.div`
   height: 500px;
   background: url(${ImgBg}) no-repeat center/cover;
   margin-left: 50px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 80%
+  }
 `
 
 export const Rback2 = styled(motion.div)`
@@ -40,6 +50,10 @@ export const Rback2 = styled(motion.div)`
   height: 500px;
   background: url(${ImgBg1}) no-repeat center/cover;
   margin-left: 50px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 80%
+  }
 `
 export const Rback3 = styled(motion.div)`
   width: 100%;
@@ -47,13 +61,22 @@ export const Rback3 = styled(motion.div)`
   height: 500px;
   background: url(${ImgBg2}) no-repeat center/cover;
   margin-left: 50px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 80%
+  }
 `
 
 export const Rinfo = styled(motion.div)`
   width: 100%;
   max-width: 50%;
-  margin-right: 50px;
-  padding: 0 100px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%
+  }
+  ${'' /* padding: 0 100px; */}
 `
 
 export const Heading = styled.h2`

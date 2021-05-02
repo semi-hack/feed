@@ -6,9 +6,9 @@ const getStarted = () => {
         <div className="getBackground">
             <div className="words">
                 <h7>Get in touch with us</h7>
-                <h3>Get started now to grow your farm</h3>
+                <h3>Learn more about what we do</h3>
                 <div className="contactBtn">
-                    <a href="/#" className="btn">Contact Us</a>
+                    <a href="https://feedafrique.com/contact" className="btn">Contact Us</a>
                 </div>
             </div>
         </div>

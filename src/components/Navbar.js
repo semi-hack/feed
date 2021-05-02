@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa'
-import imgBg from '../images/FAlogo.jpeg'
+import imgBg from '../images/FAlogo.jpg'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem } from './NavbarElements'
 import '../components/aboutUs/about.css'
 

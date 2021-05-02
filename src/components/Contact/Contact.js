@@ -47,7 +47,7 @@ const Contact = () => {
 
     
         const goToLinkedin = () => {
-            window.open('https://linkedin.com/in/', '_blank');
+            window.open('https://linkedin.com/mwlite/in/oluwafolakanmi-oyeleke-649a30200', '_blank');
         };
     
         const goToMail = () => {
@@ -115,12 +115,12 @@ const Contact = () => {
 						<button className="tab cursor" onClick={goToLinkedin}>
 							{/* <img src={LinkedIn} alt="" /> */}
 							<LinkedInIcon />
-							<span>linkedin.com/mwlite/in/oluwafolakanmi-oyeleke-649a30200</span>
+							<span>linkedin.com</span>
 						</button> 
 						<button className="tab cursor" onClick={goToMail}>
 							{/* <img src={Email} alt="" /> */}
                             <EmailIcon />
-							<span>fkoyeleke@gmail.com</span>
+							<span>info@feedafrique.com</span>
 						</button>
 					</div>
 				</div>
