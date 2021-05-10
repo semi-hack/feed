@@ -13,12 +13,12 @@ const Service = () => {
     }, []);
 
     return (
-        <div>
+        <div id="service">
             <div className="Title">
                Services
             </div>
         <div className="section">
-            <div className="container">
+            <div className="container" data-aos="fade-right">
               <div className="cards">
                   <img src={logo} alt="" />
                   <div className="content">

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero/Hero';
 import Footer from './components/Footer/Footer';
 import Service from './components/Service/Service';
+import Services from './components/Services/Service'
 import Review from './components/review/review';
 import About from './components/aboutUs/about';
 import Contact from './components/Contact/Contact';
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path='/about' exact>
          <About />
+        </Route>
+        <Route path="" exact>
+          <Services />
         </Route>
         <Route path="/contact" exact>
          <Contact />

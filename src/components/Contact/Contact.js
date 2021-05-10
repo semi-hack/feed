@@ -51,7 +51,7 @@ const Contact = () => {
         };
     
         const goToMail = () => {
-            window.open('mailto:', '_blank')
+            window.open('mailto:fkoyeleke@gmail.com', '_blank')
         };
     
         const goToWhatsapp = () => {
@@ -62,7 +62,7 @@ const Contact = () => {
             e.preventDefault();
             const send = e.target;
             setSending('sending');
-            emailJs.sendForm('service_kgyfz8d', 'template_ncszlrh', e.target, 'user_K5YKGYxD9VbGM70Z2HXgN').then(
+            emailJs.sendForm('service_fizfmak', 'template_vx4wajb', e.target, 'user_aCUvFSGwgG0gIlDTTAitl').then(
                 (result) => {
                     setSending('sent');
                     send.reset();
@@ -120,7 +120,7 @@ const Contact = () => {
 						<button className="tab cursor" onClick={goToMail}>
 							{/* <img src={Email} alt="" /> */}
                             <EmailIcon />
-							<span>info@feedafrique.com</span>
+							<span>fkoyeleke@feedafrique.com</span>
 						</button>
 					</div>
 				</div>

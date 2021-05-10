@@ -17,18 +17,18 @@ const Footer = () => {
                     <FooterLinksContainer>
                         <FooterLinkWrapper>
                             <FooterLinkItem>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
+                                <FooterLinkTitle to='/about'>About Us</FooterLinkTitle>
                                     <FooterLink>Services</FooterLink>
-                                    <FooterLink>Terms of Service</FooterLink>
+                                    <FooterLink to='#/'>Terms of Service</FooterLink>
                             </FooterLinkItem>
                             <FooterLinkItem>
                                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
                                     <FooterLink to='/about'>Learn More</FooterLink>
-                                    <FooterLink>Privacy Policy</FooterLink>
+                                    <FooterLink to='#/'>Privacy Policy</FooterLink>
                             </FooterLinkItem>
                             <FooterLinkItem>
                                 {/* <FooterLinkTitle>Social Media</FooterLinkTitle> */}
-                                <FooterLink>info@feedafrique.com</FooterLink>
+                                <FooterLink>fkoyeleke@feedafrique.com</FooterLink>
                                 <p>+234 9058025285</p>
                             </FooterLinkItem>
                         </FooterLinkWrapper>

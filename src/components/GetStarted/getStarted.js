@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import '../GetStarted/get.css'
 
 const getStarted = () => {
@@ -8,7 +9,7 @@ const getStarted = () => {
                 <h7>Get in touch with us</h7>
                 <h3>Learn more about what we do</h3>
                 <div className="contactBtn">
-                    <a href="https://feedafrique.com/contact" className="btn">Contact Us</a>
+                    <Link to='/contact' className="btn">Contact Us</Link>
                 </div>
             </div>
         </div>

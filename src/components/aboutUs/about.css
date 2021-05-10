@@ -167,3 +167,45 @@
     font-weight: bolder;
     font-size: 24px;
 }
+
+/* **/
+.team {
+    align-items: center;
+    text-align: center;
+}
+
+.team-container {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/* .text {
+    color: #09b162;
+    text-align: center;
+    font-size: 30px;
+} */
+
+/* .row {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+/* }
+
+.profile-card {
+    background: blue;
+    height: 50vh;
+    overflow: hidden;
+    margin: 10px
+} */
+
+/* .card-img {
+    object-fit: cover;
+    height: 14vw;
+    width: 100%;
+} */
