@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import ImgBg from '../../images/wind_turbine.svg';
 import ImgBg1 from '../../images/ice_cream.svg'
-import ImgBg2 from '../../images/cow.jpg'
+import ImgBg2 from '../../images/moo.jpg'
 import { motion } from 'framer-motion'
 
 
@@ -72,6 +72,7 @@ export const Rinfo = styled(motion.div)`
   max-width: 50%;
   margin-right: 40px;
   margin-left: 40px;
+  padding-top: 10px;
 
   @media screen and (max-width: 768px) {
     max-width: 100%

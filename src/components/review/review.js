@@ -52,6 +52,7 @@ const Review = () => {
         </Rinfo>
       </Rwrapper>
       <Rwrapper>
+      <Rback2 data-aos="fade-up"></Rback2>
         <Rinfo data-aos="fade-down">
           <Heading>Dairy Production</Heading>
           <Subtitile>
@@ -61,10 +62,9 @@ const Review = () => {
             affordable for millions of Nigerians
           </Subtitile>
         </Rinfo>
-        <Rback2 data-aos="fade-up"></Rback2>
       </Rwrapper>
       <Rwrapper>
-        <Rback3></Rback3>
+      <Rback3></Rback3>
         <Rinfo data-aos="fade-up">
           <Heading1>Feed and Fodder Production</Heading1>
           <Subtitile1>
